@@ -1,6 +1,6 @@
 let songsWrapper = document.querySelector(".songs-wrapper");
 let musicNames = new XMLHttpRequest();
-musicNames.open("GET", "../songs.json");
+musicNames.open("GET", "./songs.json");
 musicNames.onreadystatechange = function () {
     if (this.status == 200 && this.readyState == 4) {
         let names = JSON.parse(musicNames.responseText);
