@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(41, 41, 41);
+    .songs-wrapper {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 30px;
+        .song-wrapper {
+            .card {
+                border: none;
+                .card-img-top {
+                    height: 210px;
+                }
+                .prog {
+                    .range {
+                        width: 100%;
+                        color: white;
+                    }
+                }
+                .buttons {
+                    .btn-start {
+                        width: 45px;
+                        height: 45px;
+                        border: none;
+                        border-radius: 50%;
+                        background: linear-gradient(to right, #4253f0, #7854fb);
+                        svg {
+                            font-size: 1.2rem;
+                            color: white;
+                        }
+                    }
+                    .btn-replay,
+                    .btn-repeat {
+                        border: none;
+                        background: none;
+                        svg {
+                            font-size: 1.2rem;
+                        }
+                    }
+                    .repeat-on {
+                        svg {
+                            color: blue;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

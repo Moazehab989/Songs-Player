@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(41, 41, 41);
+}
+body .songs-wrapper {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 30px;
+}
+body .songs-wrapper .song-wrapper .card {
+  border: none;
+}
+body .songs-wrapper .song-wrapper .card .card-img-top {
+  height: 210px;
+}
+body .songs-wrapper .song-wrapper .card .prog .range {
+  width: 100%;
+  color: white;
+}
+body .songs-wrapper .song-wrapper .card .buttons .btn-start {
+  width: 45px;
+  height: 45px;
+  border: none;
+  border-radius: 50%;
+  background: linear-gradient(to right, #4253f0, #7854fb);
+}
+body .songs-wrapper .song-wrapper .card .buttons .btn-start svg {
+  font-size: 1.2rem;
+  color: white;
+}
+body .songs-wrapper .song-wrapper .card .buttons .btn-replay,
+body .songs-wrapper .song-wrapper .card .buttons .btn-repeat {
+  border: none;
+  background: none;
+}
+body .songs-wrapper .song-wrapper .card .buttons .btn-replay svg,
+body .songs-wrapper .song-wrapper .card .buttons .btn-repeat svg {
+  font-size: 1.2rem;
+}
+body .songs-wrapper .song-wrapper .card .buttons .repeat-on svg {
+  color: blue;
+}
+
+/*# sourceMappingURL=main.css.map */

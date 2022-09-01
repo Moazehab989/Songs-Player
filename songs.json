@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Let Her Go",
+        "id": "letHerGo",
+        "url": "../music/Passenger _ Let Her Go (Official Lyric Video).mp3",
+        "img": "https://cdns-images.dzcdn.net/images/cover/cd9cdfd35a7596625b0d6bf273c1f646/350x350.jpg",
+        "artist": "Passenger"
+    },
+    {
+        "name": "Akon-Lonely",
+        "id": "akonLonely",
+        "url": "../music/Akon - Lonely (Official Music Video).mp3",
+        "img": "https://angartwork.akamaized.net/webp/?id=150692552&size=296",
+        "artist": "akon"
+    },
+    {
+        "name": "Can't Get You out <span title='out of My Heart'>...</span>",
+        "id": "LahLahLah",
+        "url": "../music/Can't Get You out Of My Head.mp3",
+        "img": "https://s.mxmcdn.net/images-storage/albums4/1/8/7/3/6/8/41863781_800_800.jpg",
+        "artist": "Glimmer of Blooms"
+    },
+    {
+        "name": "Another Love",
+        "id": "anotherLove",
+        "url": "../music/Tom Odell - Another Love (Official Video).mp3",
+        "img": "https://images.genius.com/d1ba9a7607c29fe8c634c0bd31b9e3fc.1000x1000x1.jpg",
+        "artist": "Tom Odell"
+    },
+    {
+        "name": "RunAway",
+        "id": "RunAway",
+        "url": "../music/AURORA - Runaway.mp3",
+        "img": "https://cdns-images.dzcdn.net/images/cover/9952e8db5a766b36fe15e2838a5eb9f9/350x350.jpg",
+        "artist": "Aurora"
+    },
+    {
+        "name": "Moral Of The Story",
+        "id": "moralOfTheStory",
+        "url": "../music/Ashe - Moral of the Story (Official Audio).mp3",
+        "img": "https://upload.wikimedia.org/wikipedia/en/5/5c/Moral_of_the_Story_-_Ashe.jpg",
+        "artist": "Ashe"
+    },
+    {
+        "name": "El Hob Ebn Wes5a",
+        "id": "elHobEbnWes5a",
+        "url": "../music/Abyusif - El Hob Ebn Wes5a (prod. by Abyusif).mp3",
+        "img": "https://images.genius.com/24fd887be8d12a745fe5da63a0d8842b.1000x1000x1.png",
+        "artist": "Abyusif"
+    },
+    {
+        "name": "Asyad Elsot",
+        "id": "asyadElsot",
+        "url": "../music/Wegz - Asyad El Soot (Audio) prod. LZHYMR  _ ويجز - اسياد الصوت.mp3",
+        "img": "https://images.genius.com/c0a9ca81ffb9519afddeb0e37e15f00d.1000x1000x1.png",
+        "artist": "wegs"
+    }
+]
