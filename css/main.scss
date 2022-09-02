@@ -1,5 +1,22 @@
 body {
     background-color: rgb(41, 41, 41);
+    .search-bar {
+        width: 400px;
+        border: none;
+        padding: 15px;
+        border-radius: 20px;
+        background-color: transparent;
+        caret-color: #4253f0;
+        border-bottom: 5px solid #4253f0;
+        color: white;
+    }
+    .search-bar:focus {
+        outline: none;
+        &::placeholder {
+            transition: 0.4s;
+            opacity: 0;
+        }
+    }
     .songs-wrapper {
         padding-top: 50px;
         padding-bottom: 50px;

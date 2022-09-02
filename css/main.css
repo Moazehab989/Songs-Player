@@ -1,6 +1,33 @@
 body {
   background-color: rgb(41, 41, 41);
 }
+body .search-bar {
+  width: 400px;
+  border: none;
+  padding: 15px;
+  border-radius: 20px;
+  background-color: transparent;
+  caret-color: #4253f0;
+  border-bottom: 5px solid #4253f0;
+  color: white;
+}
+body .search-bar:focus {
+  outline: none;
+}
+body .search-bar:focus::-moz-placeholder {
+  -moz-transition: 0.4s;
+  transition: 0.4s;
+  opacity: 0;
+}
+body .search-bar:focus:-ms-input-placeholder {
+  -ms-transition: 0.4s;
+  transition: 0.4s;
+  opacity: 0;
+}
+body .search-bar:focus::placeholder {
+  transition: 0.4s;
+  opacity: 0;
+}
 body .songs-wrapper {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -39,6 +66,4 @@ body .songs-wrapper .song-wrapper .card .buttons .btn-repeat svg {
 }
 body .songs-wrapper .song-wrapper .card .buttons .repeat-on svg {
   color: blue;
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */

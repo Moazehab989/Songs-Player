@@ -4,7 +4,6 @@ musicNames.open("GET", "./songs.json");
 musicNames.onreadystatechange = function () {
     if (this.status == 200 && this.readyState == 4) {
         let names = JSON.parse(musicNames.responseText);
-
         names.map((ele, idx) => {
             songsWrapper.innerHTML += `
                 <div class="song-wrapper d-flex flex-column song-${ele.id}">
@@ -100,14 +99,10 @@ function currTime(audio, idx) {
 
         let durmin = Math.floor(audio.duration / 60);
         let dursec = Math.floor(audio.duration - durmin * 60);
-        console.log(durmin);
-        console.log(dursec);
         let curmin = Math.floor(audio.currentTime / 60);
         let cursec = Math.floor(audio.currentTime - curmin * 60);
         if (durmin < 10) durmin = "0" + durmin;
         if (dursec < 10) dursec = "0" + dursec;
-        console.log(durmin);
-        console.log(dursec);
         if (curmin < 10) curmin = "0" + curmin;
         if (cursec < 10) cursec = "0" + cursec;
         let duration = durmin + ":" + dursec;
@@ -121,4 +116,11 @@ function currTime(audio, idx) {
 function changeCurrTime(audio, idx) {
     let progressValue = parseInt(document.getElementById(`range-${idx}`).value);
     audio.currentTime = progressValue;
+}
+
+function search() {
+    let names = JSON.parse(musicNames.responseText);
+    names.map((ele, idx) => {
+        console.log(ele.name)
+    })
 }
