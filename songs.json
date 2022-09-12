@@ -54,5 +54,12 @@
         "url": "./music/Wegz - Asyad El Soot (Audio) prod. LZHYMR  _ ويجز - اسياد الصوت.mp3",
         "img": "https://images.genius.com/c0a9ca81ffb9519afddeb0e37e15f00d.1000x1000x1.png",
         "artist": "wegs"
+    },
+    {
+        "name": "Everything I Want",
+        "id": "EverythingIWant",
+        "url": "./music/Billie Eilish-everything i wanted.mp3",
+        "img": "https://f4.bcbits.com/img/a4117858134_10.jpg",
+        "artist": "Billie Eilish"
     }
 ]

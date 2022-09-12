@@ -1,9 +1,19 @@
 let songsWrapper = document.querySelector(".songs-wrapper");
+let searchWrapper = document.getElementById("search-wrapper");
 let musicNames = new XMLHttpRequest();
+let songsData;
+
 musicNames.open("GET", "./songs.json");
 musicNames.onreadystatechange = function () {
     if (this.status == 200 && this.readyState == 4) {
         let names = JSON.parse(musicNames.responseText);
+        songsData = names;
+        searchWrapper.innerHTML = `<input
+            type="text"
+            class="search-bar"
+            style="font-family: Arial, FontAwesome"
+            placeholder="&#xF002;&nbsp; search song"
+        />`;
         names.map((ele, idx) => {
             songsWrapper.innerHTML += `
                 <div class="song-wrapper d-flex flex-column song-${ele.id}">
@@ -121,6 +131,6 @@ function changeCurrTime(audio, idx) {
 function search() {
     let names = JSON.parse(musicNames.responseText);
     names.map((ele, idx) => {
-        console.log(ele.name)
-    })
+        console.log(ele.name);
+    });
 }
